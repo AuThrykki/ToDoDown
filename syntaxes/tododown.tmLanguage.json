@@ -38,7 +38,13 @@
           "name": "keyword.operator.hash.tododown"
         }
       },
-      "end": "$"
+      "end": "$",
+			"patterns": [
+        {
+          "name": "keyword.operator.hashDone.tododown",
+          "match": " D "
+        }
+      ]
     },
     {
       "name": "meta.info.line.tododown",
