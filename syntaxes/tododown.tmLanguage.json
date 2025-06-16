@@ -189,6 +189,31 @@
           ]
         }
       ]
+    },
+		{
+      "name": "meta.question.line.tododown",
+      "begin": "(\\t)(\\?)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.question.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.question.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
     }
   ],
   "repository": {

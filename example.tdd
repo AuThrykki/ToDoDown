@@ -1,0 +1,31 @@
+# This is a title
+
+## this is a subtitle
+
+### Bug 393
+	D solve bug
+	~ deploy
+		~ current: QA
+
+### Bug 394
+	~ solve bug
+	! expand wiki wiki
+		D overall description
+		D input variables
+		~ output variables
+		! version changes
+	i here's just some additional info about this bug I'm not supposed to forget.
+
+	? What should I do here?
+	?[Other Person] I need to ask the other person about something.
+		i here's some additional information about that question.
+
+### US 2039
+	...[Other Persion] add description
+		+ This means that the person in brackets needs to do the task, before i can continue on it
+		if they don't report back
+			-> ask them on teams tomorrow
+
+
+	! do userstory
+	! write wiki
