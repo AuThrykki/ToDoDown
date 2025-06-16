@@ -1,0 +1,233 @@
+{
+  "scopeName": "source.tododown",
+  "name": "ToDoDown",
+  "patterns": [
+    {
+      "name": "meta.exclamation.line.tododown",
+      "begin": "(\\t)(!)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.exclamation.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.exclamation.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meta.hash.line.tododown",
+      "begin": "\\#+",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.hash.tododown"
+        }
+      },
+      "end": "$"
+    },
+    {
+      "name": "meta.info.line.tododown",
+      "begin": "(\\t)(i)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.info.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.info.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meta.done.line.tododown",
+      "begin": "(\\t)(D)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.done.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.done.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meta.wip.line.tododown",
+      "begin": "(\\t)(\\~)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.wip.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.wip.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meta.plus.line.tododown",
+      "begin": "(\\t)(\\+)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.plus.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.plus.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meta.arrow.line.tododown",
+      "begin": "(\\t)(\\-\\>)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.arrow.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.arrow.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "meta.ellipsis.line.tododown",
+      "begin": "(\\t)(\\.\\.\\.)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.tododown"
+        },
+        "2": {
+          "name": "keyword.operator.ellipsis.tododown"
+        }
+      },
+      "end": "$",
+      "patterns": [
+        {
+          "name": "meta.description.ellipsis.tododown",
+          "begin": " ",
+          "end": "$",
+          "patterns": [
+            {
+              "include": "#common"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "common": {
+      "patterns": [
+        {
+          "include": "#strings"
+        },
+        {
+          "include": "#numbers"
+        },
+        {
+          "include": "#brackets"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.tododown",
+          "match": "(\"[^\"]*\"|'[^']*'|`[^`]*`)"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.tododown",
+          "match": "\\b\\d+(\\.\\d+)?\\b"
+        }
+      ]
+    },
+    "brackets": {
+      "patterns": [
+        {
+          "name": "meta.brackets.square.tododown",
+          "match": "\\[[^\\]]*\\]"
+        }
+      ]
+    }
+  }
+}

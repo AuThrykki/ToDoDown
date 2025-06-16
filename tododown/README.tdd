@@ -1,0 +1,42 @@
+# tododown README
+## Description
+	i This is a markdown text highlighter, used specifically for a annotation style that I personally use to write down and follow up on to-do style tasks at work and in my free time. Highlighting like this helps me reading and understanding my notes better.
+
+
+## Example Text:
+
+`
+# This is a title
+
+## this is a subtitle
+
+### Bug 393
+	D solve bug
+	~ deploy
+		~ current: QA
+
+### Bug 394
+	~ solve bug
+	! expand wiki wiki
+		D overall description
+		D input variables
+		~ output variables
+		! version changes
+	i here's just some additional info about this bug I'm not supposed to forget.
+
+### US 2039
+	...[Other Persion] add description
+		+ This means that the person in brackets needs to do the task, before i can continue on it
+		if they don't report back
+			-> ask them on teams tomorrow
+
+
+	! do userstory
+	! write wiki
+
+`
+
+
+# to install this:
+	! install extension
+	! add the "colourSettings.json" to your user settings
