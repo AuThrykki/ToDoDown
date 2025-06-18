@@ -30,7 +30,7 @@
 		{
 			"name": "meta.hash.line.tododown",
 			"begin": "\\#+",
-			"end": "^(?=\\s*$)",
+			"end": "$",
 			"beginCaptures": {
 				"1": {
 					"name": "punctuation.whitespace.tododown"
