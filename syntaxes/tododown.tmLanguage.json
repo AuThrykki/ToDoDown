@@ -30,6 +30,7 @@
 		{
 			"name": "meta.hash.line.tododown",
 			"begin": "\\#+",
+			"end": "^(?=\\s*$)",
 			"beginCaptures": {
 				"1": {
 					"name": "punctuation.whitespace.tododown"
@@ -38,7 +39,6 @@
 					"name": "keyword.operator.hash.tododown"
 				}
 			},
-			"end": "$",
 			"patterns": [
 				{
 					"name": "keyword.operator.hashDone.tododown",
@@ -71,7 +71,7 @@
 				}
 			]
 		},
-    {
+		{
 			"name": "meta.info.line.tododown",
 			"begin": "(\\t)(i)",
 			"beginCaptures": {
