@@ -1,25 +1,43 @@
 {
-  "name": "tododown",
-  "displayName": "ToDoDown",
-  "description": "A custom markdown for the way I personally write my to-do notes",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.101.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "tododown",
-      "aliases": ["ToDoDown", "tododown"],
-      "extensions": ["tdd"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "tododown",
-      "scopeName": "source.tododown",
-      "path": "./syntaxes/tododown.tmLanguage.json"
-    }]
-  }
+	"name": "tododown",
+	"displayName": "ToDoDown",
+	"description": "A custom markdown for the way I personally write my to-do notes",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.101.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "tododown",
+				"aliases": [
+					"ToDoDown",
+					"tododown"
+				],
+				"extensions": [
+					"tdd"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"themes": [
+					{
+						"label": "TododownDarkTheme",
+						"uiTheme": "vs-dark",
+						"path": "./themes/tododownDarktheme.json"
+					}
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "tododown",
+				"scopeName": "source.tododown",
+				"path": "./syntaxes/tododown.tmLanguage.json"
+			}
+		]
+	}
 }
