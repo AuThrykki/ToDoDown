@@ -1,6 +1,7 @@
 {
 	"name": "tododown",
 	"displayName": "ToDoDown",
+	"publisher": "authrykki",
 	"description": "A custom markdown for the way I personally write my to-do notes",
 	"version": "0.0.1",
 	"engines": {
@@ -10,6 +11,13 @@
 		"Programming Languages"
 	],
 	"contributes": {
+		"themes": [
+			{
+				"label": "TododownDarkTheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tododownDarkTheme.json"
+			}
+		],
 		"languages": [
 			{
 				"id": "tododown",
@@ -21,15 +29,6 @@
 					"tdd"
 				],
 				"configuration": "./language-configuration.json"
-			},
-			{
-				"themes": [
-					{
-						"label": "TododownDarkTheme",
-						"uiTheme": "vs-dark",
-						"path": "./themes/tododownDarktheme.json"
-					}
-				]
 			}
 		],
 		"grammars": [
