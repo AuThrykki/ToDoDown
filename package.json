@@ -3,7 +3,7 @@
 	"displayName": "ToDoDown",
 	"publisher": "authrykki",
 	"description": "A custom markdown for the way I personally write my to-do notes",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.101.0"
 	},
