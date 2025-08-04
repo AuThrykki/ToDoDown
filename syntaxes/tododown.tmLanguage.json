@@ -73,7 +73,7 @@
 		},
 		{
 			"name": "meta.info.line.tododown",
-			"begin": "(\\t)(i)",
+			"begin": "(\\t)(i|-)",
 			"beginCaptures": {
 				"1": {
 					"name": "punctuation.whitespace.tododown"
@@ -236,6 +236,31 @@
 			"patterns": [
 				{
 					"name": "meta.description.question.tododown",
+					"begin": " ",
+					"end": "$",
+					"patterns": [
+						{
+							"include": "#common"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "meta.failed.line.tododown",
+			"begin": "(\\t)(X|f|n)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.whitespace.tododown"
+				},
+				"2": {
+					"name": "keyword.operator.failed.tododown"
+				}
+			},
+			"end": "$",
+			"patterns": [
+				{
+					"name": "meta.description.failed.tododown",
 					"begin": " ",
 					"end": "$",
 					"patterns": [

@@ -1,151 +1,160 @@
 {
-  "name": "TododownDarkTheme",
-  "type": "dark",
-  "colors": {},
-  "tokenColors": [
-    {
-      "scope": "meta.brackets.square.tododown",
-      "settings": {
-        "foreground": "#8b74ff"
-      }
-    },
-    {
-      "scope": "string.quoted.tododown",
-      "settings": {
-        "foreground": "#be4f23"
-      }
-    },
-    {
-      "scope": "constant.numeric.tododown",
-      "settings": {
-        "foreground": "#cb4343"
-      }
-    },
-    {
-      "scope": "keyword.operator.exclamation.tododown",
-      "settings": {
-        "foreground": "#ff0000"
-      }
-    },
-    {
-      "scope": "meta.description.exclamation.tododown",
-      "settings": {
-        "foreground": "#ffc2c2"
-      }
-    },
-    {
-      "scope": "keyword.operator.question.tododown",
-      "settings": {
-        "foreground": "#ff3ec2"
-      }
-    },
-    {
-      "scope": "meta.description.question.tododown",
-      "settings": {
-        "foreground": "#d87bbb"
-      }
-    },
-    {
-      "scope": "meta.hash.line.tododown",
-      "settings": {
-        "foreground": "#a0c6db"
-      }
-    },
-    {
-      "scope": "meta.description.hash.tododown",
-      "settings": {
-        "foreground": "#a0c6db"
-      }
-    },
-    {
-      "scope": "keyword.operator.info.tododown",
-      "settings": {
-        "foreground": "#2fdcff"
-      }
-    },
-    {
-      "scope": "meta.description.info.tododown",
-      "settings": {
-        "foreground": "#d4ffff"
-      }
-    },
-    {
-      "scope": "keyword.operator.done.tododown",
-      "settings": {
-        "foreground": "#25ff5b"
-      }
-    },
-    {
-      "scope": "keyword.operator.hashDone.tododown",
-      "settings": {
-        "foreground": "#25ff5b"
-      }
-    },
-    {
-      "scope": "meta.description.done.tododown",
-      "settings": {
-        "foreground": "#e4ffcd"
-      }
-    },
-    {
-      "scope": "keyword.operator.plus.tododown",
-      "settings": {
-        "foreground": "#fff261"
-      }
-    },
-    {
-      "scope": "meta.description.plus.tododown",
-      "settings": {
-        "foreground": "#fffac3"
-      }
-    },
-    {
-      "scope": "keyword.operator.if.tododown",
-      "settings": {
-        "foreground": "#fff423"
-      }
-    },
-    {
-      "scope": "meta.description.if.tododown",
-      "settings": {
-        "foreground": "#ffffa9"
-      }
-    },
-    {
-      "scope": "keyword.operator.arrow.tododown",
-      "settings": {
-        "foreground": "#ff9523"
-      }
-    },
-    {
-      "scope": "meta.description.arrow.tododown",
-      "settings": {
-        "foreground": "#ffdda9"
-      }
-    },
-    {
-      "scope": "keyword.operator.ellipsis.tododown",
-      "settings": {
-        "foreground": "#6748ff"
-      }
-    },
-    {
-      "scope": "meta.description.ellipsis.tododown",
-      "settings": {
-        "foreground": "#c3b7ff"
-      }
-    },
-    {
-      "scope": "keyword.operator.wip.tododown",
-      "settings": {
-        "foreground": "#ff0099"
-      }
-    },
-    {
-      "scope": "meta.description.wip.tododown",
-      "settings": {
-        "foreground": "#ff9dd6"
-      }
-    }
-  ]
+	"name": "TododownDarkTheme",
+	"type": "dark",
+	"colors": {},
+	"tokenColors": [
+		{
+			"scope": "meta.brackets.square.tododown",
+			"settings": {
+				"foreground": "#8b74ff"
+			}
+		},
+		{
+			"scope": "string.quoted.tododown",
+			"settings": {
+				"foreground": "#be4f23"
+			}
+		},
+		{
+			"scope": "constant.numeric.tododown",
+			"settings": {
+				"foreground": "#cb4343"
+			}
+		},
+		{
+			"scope": "keyword.operator.exclamation.tododown",
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"scope": "meta.description.exclamation.tododown",
+			"settings": {
+				"foreground": "#ffc2c2"
+			}
+		},
+		{
+			"scope": "keyword.operator.question.tododown",
+			"settings": {
+				"foreground": "#ff3ec2"
+			}
+		},
+		{
+			"scope": "meta.description.question.tododown",
+			"settings": {
+				"foreground": "#d87bbb"
+			}
+		},
+		{
+			"scope": "meta.hash.line.tododown",
+			"settings": {
+				"foreground": "#a0c6db"
+			}
+		},
+		{
+			"scope": "meta.description.hash.tododown",
+			"settings": {
+				"foreground": "#a0c6db"
+			}
+		},
+		{
+			"scope": "keyword.operator.info.tododown",
+			"settings": {
+				"foreground": "#2fdcff"
+			}
+		},
+		{
+			"scope": "meta.description.info.tododown",
+			"settings": {
+				"foreground": "#d4ffff"
+			}
+		},
+		{
+			"scope": "keyword.operator.done.tododown",
+			"settings": {
+				"foreground": "#25ff5b"
+			}
+		},
+		{
+			"scope": "keyword.operator.hashDone.tododown",
+			"settings": {
+				"foreground": "#25ff5b"
+			}
+		},
+		{
+			"scope": "meta.description.done.tododown",
+			"settings": {
+				"foreground": "#e4ffcd"
+			}
+		},
+		{
+			"scope": "keyword.operator.plus.tododown",
+			"settings": {
+				"foreground": "#fff261"
+			}
+		},
+		{
+			"scope": "meta.description.plus.tododown",
+			"settings": {
+				"foreground": "#fffac3"
+			}
+		},
+		{
+			"scope": "keyword.operator.if.tododown",
+			"settings": {
+				"foreground": "#fff423"
+			}
+		},
+		{
+			"scope": "meta.description.if.tododown",
+			"settings": {
+				"foreground": "#ffffa9"
+			}
+		},
+		{
+			"scope": "keyword.operator.arrow.tododown",
+			"settings": {
+				"foreground": "#ff9523"
+			}
+		},
+		{
+			"scope": "meta.description.arrow.tododown",
+			"settings": {
+				"foreground": "#ffdda9"
+			}
+		},
+		{
+			"scope": "keyword.operator.ellipsis.tododown",
+			"settings": {
+				"foreground": "#6748ff"
+			}
+		},
+		{
+			"scope": "meta.description.ellipsis.tododown",
+			"settings": {
+				"foreground": "#c3b7ff"
+			}
+		},
+		{
+			"scope": "keyword.operator.wip.tododown",
+			"settings": {
+				"foreground": "#ff0099"
+			}
+		},
+		{
+			"scope": "meta.description.wip.tododown",
+			"settings": {
+				"foreground": "#ff9dd6"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.failed.tododown",
+				"meta.failed.line.tododown"
+			],
+			"settings": {
+				"foreground": "#AA3333"
+			}
+		}
+	]
 }
