@@ -147,31 +147,6 @@
 			]
 		},
 		{
-			"name": "meta.plus.line.tododown",
-			"begin": "(\\t)(\\+)",
-			"beginCaptures": {
-				"1": {
-					"name": "punctuation.whitespace.tododown"
-				},
-				"2": {
-					"name": "keyword.operator.plus.tododown"
-				}
-			},
-			"end": "$",
-			"patterns": [
-				{
-					"name": "meta.description.plus.tododown",
-					"begin": " ",
-					"end": "$",
-					"patterns": [
-						{
-							"include": "#common"
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "meta.arrow.line.tododown",
 			"begin": "(\\t)(\\-\\>)",
 			"beginCaptures": {
@@ -186,6 +161,31 @@
 			"patterns": [
 				{
 					"name": "meta.description.arrow.tododown",
+					"begin": " ",
+					"end": "$",
+					"patterns": [
+						{
+							"include": "#common"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "meta.plus.line.tododown",
+			"begin": "(\\t)(\\+)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.whitespace.tododown"
+				},
+				"2": {
+					"name": "keyword.operator.plus.tododown"
+				}
+			},
+			"end": "$",
+			"patterns": [
+				{
+					"name": "meta.description.plus.tododown",
 					"begin": " ",
 					"end": "$",
 					"patterns": [
