@@ -10,9 +10,51 @@
 			}
 		},
 		{
-			"scope": "string.quoted.tododown",
+			"scope": "string.quoted.double.tododown",
 			"settings": {
-				"foreground": "#be4f23"
+				"foreground": "#be4f23",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "string.quoted.single.tododown",
+			"settings": {
+				"foreground": "#d65f2a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "string.quoted.backtick.tododown",
+			"settings": {
+				"foreground": "#a03e1a"
+			}
+		},
+		{
+			"scope": "string.asterisk.single.tododown",
+			"settings": {
+				"foreground": "#be6f23",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "string.asterisk.double.tododown",
+			"settings": {
+				"foreground": "#be4f43",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "string.underline.single.tododown",
+			"settings": {
+				"foreground": "#be4f73",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "string.underline.double.tododown",
+			"settings": {
+				"foreground": "#be2f23",
+				"fontStyle": "bold"
 			}
 		},
 		{
