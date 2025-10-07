@@ -197,6 +197,12 @@
 			"settings": {
 				"foreground": "#AA3333"
 			}
+		},
+		{
+			"scope": "meta.locations.AtLocation.tododown",
+			"settings": {
+				"foreground": "#FFAA33"
+			}
 		}
 	]
 }

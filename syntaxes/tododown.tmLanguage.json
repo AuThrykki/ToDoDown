@@ -43,6 +43,9 @@
 				{
 					"name": "keyword.operator.hashDone.tododown",
 					"match": " D "
+				},
+				{
+					"include": "#common"
 				}
 			]
 		},
@@ -283,39 +286,42 @@
 				},
 				{
 					"include": "#brackets"
+				},
+				{
+					"include": "#locations"
 				}
 			]
 		},
 		"strings": {
 			"patterns": [
-        {
-            "name": "string.quoted.double.tododown",
-            "match": "\"[^\"]*\""
-        },
-        {
-            "name": "string.quoted.single.tododown",
-            "match": "'[^']*'"
-        },
-        {
-            "name": "string.quoted.backtick.tododown",
-            "match": "`[^`]*`"
-        },
-        {
-            "name": "string.asterisk.single.tododown",
-            "match": "\\*[^*]+\\*"
-        },
-        {
-            "name": "string.asterisk.double.tododown",
-            "match": "\\*\\*[^*]+\\*\\*"
-        },
-        {
-            "name": "string.underline.single.tododown",
-            "match": "_[^_]+_"
-        },
-        {
-            "name": "string.underline.double.tododown",
-            "match": "__[^_]+__"
-        }
+				{
+					"name": "string.quoted.double.tododown",
+					"match": "\"[^\"]*\""
+				},
+				{
+					"name": "string.quoted.single.tododown",
+					"match": "'[^']*'"
+				},
+				{
+					"name": "string.quoted.backtick.tododown",
+					"match": "`[^`]*`"
+				},
+				{
+					"name": "string.asterisk.single.tododown",
+					"match": "\\*[^*]+\\*"
+				},
+				{
+					"name": "string.asterisk.double.tododown",
+					"match": "\\*\\*[^*]+\\*\\*"
+				},
+				{
+					"name": "string.underline.single.tododown",
+					"match": "_[^_]+_"
+				},
+				{
+					"name": "string.underline.double.tododown",
+					"match": "__[^_]+__"
+				}
 			]
 		},
 		"numbers": {
@@ -331,6 +337,14 @@
 				{
 					"name": "meta.brackets.square.tododown",
 					"match": "\\[[^\\]]*\\]"
+				}
+			]
+		},
+		"locations": {
+			"patterns": [
+				{
+					"name": "meta.locations.AtLocation.tododown",
+					"match": "@\\S+"
 				}
 			]
 		}
